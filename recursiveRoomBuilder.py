@@ -7,7 +7,7 @@ def printRoomNums(grid):
 
 def drawRoom(grid, rows, cols):
 	# Top Border
-	for x in range(cols+2):
+	for x in range(rows+2):
 		print(unichr(0x2588), end="")
 	print()
 
@@ -29,7 +29,7 @@ def drawRoom(grid, rows, cols):
 		print()
 	
 	# Bottom Border
-	for x in range(cols+2):
+	for x in range(rows+2):
 		print(unichr(0x2588), end="")
 	print("\n")
 
